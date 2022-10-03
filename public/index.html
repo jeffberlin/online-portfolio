@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head profile="http://www.w3.org/TR/html4/strict.dtd">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Open Graph info -->
+    <meta name="Description" content="An online resume created by Jeff Berlin. This displays work history, project history, skills, and much more!">
+    <meta name="Keywords" content="jeff berlin, online resume, web developer, web designer, stackoverflow, github, social media, online portfolio, jeff, berlin, online, resume, website, web, developer, designer, design, graphic, graphic design, portfolio, for hire, hire, contract, contractor, software, engineer, software engineer, website design, website designer, website developer, website builder, creator, web creator, website creator, wilmington, north carolina, north, carolina, united states, usa, nc, wilmington nc, wilmington north carolina, employ, development, web development, website development, UI/UX, UI, UX, user interface, user experience, analytics, front end, frontend, front-end, front end web developer, frontend web developer, front-end web developer">
+    <meta name="author" content="Jeff Berlin">
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Jeff Berlin's Portfolio" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Jeff Berlin's online resume that displays contact info, project links, work history, and much more!" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://jeffberlindev.com/" />
+    <meta property="og:image" content="https://jeffberlindev.com/images/jeff-berlin-portfolio-logo-min.jpg" />
+    <meta property="og:image:secure_url" content="https://jeffberlindev.com/images/jeff-berlin-portfolio-logo-min.jpg">
+    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="image/jpg" />
+    <link rel="icon" type="image/png" href="images/jeff-berlin-portfolio-logo-favicon-64.png">
+    <title>Jeff Berlin's Portfolio</title>
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!-- Load Social Media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Sansita|Merriweather+Sans:300i,400i|Source+Sans+Progress|Kavivanar|IBM+Plex+Sans+Condensed|Noto+Sans|Montserrat:300,400,500,600,700&display=swap" rel="stylesheet preload">
+    <!-- Load Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- Load CSS file -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Load Responsive CSS file -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Angular JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9PYD3Z70QM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9PYD3Z70QM');
+    </script>
+  </head>
+  <body onload="loadingFunc()" style="margin: 0;">
+    <div id="loader" class="text-center"></div>
+    <div ng-app="resume" ng-controller="resumeCtrl" id="mainDiv" style="display: none;">
+      <header class="header-info container-fluid" id="top-page">
+        <div class="row justify-content-between header">
+          <div class="media-icons col-lg-4 col-md-4 col-xs-12 text-center">
+            <ul class="social">
+              <li class="social-icon">
+                <a href="https://www.linkedin.com/in/jeff-berlin/" target="_blank" alt="LinkedIn Profile" title="LinkedIn Profile"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </li>
+              <li class="social-icon">
+                <a href="https://github.com/jeffberlin" target="_blank" alt="Github Profile" title="Github Profile"><i class="fa fa-github" aria-hidden="true"></i></a>
+              </li>
+              <li class="social-icon">
+                <a href="https://angel.co/jeffberlin" target="_blank" alt="AngelList Profile" title="AngelList Profile"><i class="fa fa-angellist" aria-hidden="true"></i></a>
+              </li>
+              <li class="social-icon">
+                <a href="https://www.behance.net/jeffberlin" target="_blank" alt="Behance Profile" title="Behance Profile"><i class="fa fa-behance" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-12 text-center">
+            <a href="images/jeff-berlin-resume.pdf" download="jeff-berlin-resume" alt="Download Resume PDF" title="Download Resume PDF">
+              <button class="download-btn">Download My Resume</button>
+            </a>
+          </div>
+        </div>
+        <div class="headline text-center">
+          <div class="container">
+            <img class="headshot rounded-circle img-thumbnail" src="images/headshot-min.jpg" alt="Jeff Berlin headshot" title="Jeff Berlin headshot">
+            <h1 class="name">{{myName()}}</h1>
+            <h3 class="tag">{{headLine}}</h3>
+            <ul class="contact-info">
+              <li class="email">
+                <a href="mailto:jeff@jbrally.com" alt="email" title="E-mail me"><span class="fa fa-envelope"></span>
+                  {{email}}
+                </a>
+              </li>
+              <li class="phone">
+                <a href="tel:1-302-463-5129" alt="Phone number" title="Call me"><span class="fa fa-phone"></span>
+                  {{phone}}
+                </a>
+              </li>
+              <li class="location">
+                <a href="https://www.google.com/maps/place/Wilmington,+NC/@34.2068977,-78.1523955,119498m/data=!3m1!1e3!4m5!3m4!1s0x89a9f5a20debaed5:0x5e66493884093032!8m2!3d34.2103894!4d-77.8868117?hl=en" target="_blank" title="View on a map"><span class="fa fa-map-marker"></span>
+                  {{location}}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="navigation">
+          <div class="mobile-menu" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </div>
+          <ul id="main-menu" class="collapse navbar-collapse">
+            <li>
+              <a id="mobile-skills-button" href="#" data-toggle="collapse" data-target=".navbar-collapse">Skills</a>
+            </li>
+            <li>
+              <a id="mobile-experience-button" href="#" data-toggle="collapse" data-target=".navbar-collapse">Experience</a>
+            </li>
+            <li>
+              <a id="mobile-education-button" href="#" data-toggle="collapse" data-target=".navbar-collapse">Education</a>
+            </li>
+            <li>
+              <a id="mobile-portfolio-button" href="#" data-toggle="collapse" data-target=".navbar-collapse">Portfolio</a>
+            </li>
+            <li>
+              <a id="mobile-topcontrol" href="#" data-toggle="collapse" data-target=".navbar-collapse">Back to Top ^</a>
+            </li>
+          </ul>
+        </div>
+        <!-- MAIN NAVIGATION -->
+        <div class="page-navigation">
+          <div class="container text-center">
+            <nav>
+              <ul id="page-nav">
+                <li class="nav-item">
+                  <a id="skills-button" alt="Scroll to Skills section" title="Scroll to Skills section">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a id="experience-button" alt="Scroll to Experience section" title="Scroll to Experience section">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a id="education-button" alt="Scroll to Education section" title="Scroll to Education section">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a id="portfolio-button" alt="Scroll to Portfolio section" title="Scroll to Portfolio section">Portfolio</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- INFO SECTIONS -->
+      <div class="info-layout about">
+        <div class="container info-section">
+          <h2 class="section-header">About Me</h2>
+          <p class="about-info">What started out as a desire to learn graphic design, turned into a passion for bringing the designs and ideas to life by way of code. Some of the things that I love most about web developement is the constant problem solving and always learning having to learn new things. Outside of programming, I enjoy playing ice hockey, racing cars, snowboarding, hiking, and exploring new breweries.</p>
+          <p class="about-info">For consulting or contract inquiries, please email me at <a href="mailto:jeff@jbrally.com" class="about-info-link">jeff@jbrally.com</a>.</p>
+        </div>
+      </div>
+      <div class="info-layout skills">
+        <div class="container info-section" id="skills">
+          <h2 class="section-header">Skills</h2>
+          <p class="section-label skills-label text-center">Development</p>
+          <div class="row development-skills text-center" >
+            <ul class="skills-set col-lg-12 col-xs-6">
+              <li ng-repeat="x in developmentSkills">
+                <span>{{x}}</span>
+              </li>
+            </ul>
+          </div>
+          <p class="section-label skills-label text-center">Design</p>
+          <div class="row design-skills text-center">
+            <ul class="skills-set col-lg-12 col-xs-6">
+              <li ng-repeat="x in designSkills">
+                <span>{{x}}</span>
+              </li>
+            </ul>
+          </div>
+          <p class="section-label skills-label text-center">Other</p>
+          <div class="row other-skills text-center">
+            <ul class="skills-set col-lg-12 col-xs-6">
+              <li ng-repeat="x in otherSkills">
+                <span>{{x}}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="info-layout experience">
+        <section class="container info-section" id="experience">
+          <h2 class="section-header">Experience</h2>
+          <div class="row" ng-repeat="x in workExperience">
+            <div class="col-lg-4 text-right job-title">
+              <p class="section-title">{{x.jobTitle}}</p>
+              <p class="work-date">{{x.workDate}}</p>
+            </div>
+            <div class="col-lg-8 work-name">
+              <p class="section-label"><a ng-href="{{x.companyURL}}" target="_blank">{{x.company}}</a></p>
+              <p class="section-title md-screen">{{x.jobTitle}}</p>
+              <p class="work-date md-screen">{{x.workDate}}</p>
+              <p class="work-location"><i class="fa fa-map-marker"></i><span>{{x.workLocation}}</span>
+              <p class="section-info">{{x.jobDescription}}</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="info-layout education">
+        <section class="container info-section" id="education">
+          <h2 class="section-header">Education</h2>
+          <div class="education-info" ng-repeat="x in education">
+            <p class="section-label"><a ng-href="{{x.schoolURL}}" target="_blank">{{x.schoolName}}</a></p>
+            <p class="section-title">{{x.course}}</p>
+            <p class="section-date">{{x.date}}</p>
+            <p class="section-info">{{x.courseInfo}}</p>
+          </div>
+        </section>
+      </div>
+      <div class="info-layout portfolio">
+        <section class="container info-section" id="portfolio">
+          <h2 class="section-header">Portfolio</h2>
+          <div class="portfolio-section section">
+            <ul class="portfolio-nav filters text-center" ng-init="tab = 1">
+              <li class="filter active" ng-class="{active:panel.isSelected(1)}">
+                <a ng-click="panel.selectTab(1); groupFilter = {}" alt="Show all projects" title="Show all projects">All</a>
+              </li>
+              <li class="filter" ng-class="{active:panel.isSelected(2)}">
+                <a ng-click="panel.selectTab(2); groupFilter = {category:'development'}"  alt="Filter by developement projects" title="Show projects I coded">Development</a>
+              </li>
+              <li class="filter" ng-class="{active:panel.isSelected(3)}">
+                <a ng-click="panel.selectTab(3); groupFilter = {category:'design'}" alt="Filter by design projects" title="Show projects I designed">Design</a>
+              </li>
+            </ul>
+            <div class="row portfolio-preview">
+              <div class="project-box col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center" ng-repeat="x in projects | filter:groupFilter" title="Click for more info">
+                <div class="projects tab-content active" data-toggle="modal" data-target="#{{x.modalName}}">
+                  <figure>
+                    <img class="img-fluid screenshot lazyload" data-src="{{x.image}}" ng-src="{{x.image}}" alt="{{x.title}}">
+                  </figure>
+                  <div class="description">
+                    <h5>{{x.title}}</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    <!-- Modal for projects -->
+        <div ng-repeat="x in projects">
+          <div class="modal fade" id="{{x.modalName}}" tabindex="-1" role="dialog" aria-labelledby="{{x.modalCenterTitle}}" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="{{x.modalLongTitle}}">{{x.modalTitleName}}</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  {{x.modalBody}}
+                  <br>
+                  <br>
+                  <div class="text-center">
+                    <p class="modal-link"><a ng-href="{{x.url}}" target="_blank">View {{x.modalViewType}}</a></p>
+                    <a ng-href="{{x.url}}" target="_blank"><img class="img-fluid screenshot lazyload" data-src="{{x.image}}" ng-src="{{x.image}}" alt="{{x.title}}"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="topcontrol" title="Scroll Back to Top" style="display: none;">
+        <i class="fa fa-angle-up"></i>
+      </div>
+    </div>
+    <script src="js/lazysizes.min.js" async></script>
+    <!-- Bootstrap 4 JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Load Angular JS file -->
+    <script src="js/angular.js"></script>
+  </body>
+</html>
