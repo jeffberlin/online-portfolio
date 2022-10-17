@@ -2,6 +2,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import MyHashLink from './MyHashLink';
+import resumePDF from './jeff-berlin-resume.pdf';
 
 function ContactNav() {
   return (
@@ -64,7 +65,7 @@ function ContactNav() {
             </Nav>
             <Nav>
               <Nav.Item>
-                <a href="./jeff-berlin-resume.pdf" download="jeff-berlin-resume" alt="Download Resume PDF" title="Download Resume PDF">
+                <a href={resumePDF} download="jeff-berlin-resume" alt="Download Resume PDF" title="Download Resume PDF">
                   <button className="download-btn" type="button">Download Resume</button>
                 </a>
               </Nav.Item>
