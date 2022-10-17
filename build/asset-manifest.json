@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.026e2eb4.css",
-    "main.js": "/static/js/main.97995f55.js",
-    "static/js/69.b9a9e475.chunk.js": "/static/js/69.b9a9e475.chunk.js",
+    "main.js": "/static/js/main.843150e5.js",
+    "static/js/111.da6aae98.chunk.js": "/static/js/111.da6aae98.chunk.js",
     "static/js/410.e74d178b.chunk.js": "/static/js/410.e74d178b.chunk.js",
     "static/js/478.18918e32.chunk.js": "/static/js/478.18918e32.chunk.js",
     "static/js/453.92b63cf3.chunk.js": "/static/js/453.92b63cf3.chunk.js",
@@ -30,6 +30,7 @@
     "static/media/app-logo-1-full.jpg": "/static/media/app-logo-1-full.b29deb303de8c87f55cb.jpg",
     "static/media/jomo-video-fadeout.jpg": "/static/media/jomo-video-fadeout.5b5d3f723c78ebc46f73.jpg",
     "static/media/app-logo-2-full.jpg": "/static/media/app-logo-2-full.b1cb91540b26dcae295b.jpg",
+    "static/media/jeff-berlin-resume.pdf": "/static/media/jeff-berlin-resume.e72cea61d740189841fa.pdf",
     "static/media/sp-30th.jpg": "/static/media/sp-30th.5278fd1851bb9e34e894.jpg",
     "static/media/back-to-80s-flyer.jpg": "/static/media/back-to-80s-flyer.fa99f81534f95c6e2024.jpg",
     "static/media/may-4th-flyer.jpg": "/static/media/may-4th-flyer.0822ea597858195bf7e6.jpg",
@@ -57,8 +58,8 @@
     "static/media/track-and-rally.jpg": "/static/media/track-and-rally.31d2fd0eb30e5dc57af5.jpg",
     "index.html": "/index.html",
     "main.026e2eb4.css.map": "/static/css/main.026e2eb4.css.map",
-    "main.97995f55.js.map": "/static/js/main.97995f55.js.map",
-    "69.b9a9e475.chunk.js.map": "/static/js/69.b9a9e475.chunk.js.map",
+    "main.843150e5.js.map": "/static/js/main.843150e5.js.map",
+    "111.da6aae98.chunk.js.map": "/static/js/111.da6aae98.chunk.js.map",
     "410.e74d178b.chunk.js.map": "/static/js/410.e74d178b.chunk.js.map",
     "478.18918e32.chunk.js.map": "/static/js/478.18918e32.chunk.js.map",
     "453.92b63cf3.chunk.js.map": "/static/js/453.92b63cf3.chunk.js.map",
@@ -81,6 +82,6 @@
   },
   "entrypoints": [
     "static/css/main.026e2eb4.css",
-    "static/js/main.97995f55.js"
+    "static/js/main.843150e5.js"
   ]
 }
