@@ -235,7 +235,7 @@ const projects = [
   {
     title: "Wilmington Brew Logo",
     image: ilmBrewLogo,
-    url: "./images/ilm_brew_logo.jpg",
+    url: "/wilmington-brew",
     category: "Design",
     description: "A logo for a project website that I created. This was created using Adobe Photoshop and Sketch.",
     type: "Image",

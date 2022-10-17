@@ -1,25 +1,9 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-// import { HashLink as Link } from 'react-router-hash-link';
 import MyHashLink from './MyHashLink';
 
 function ContactNav() {
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch('jeff-berlin-resume.pdf').then(response => {
-      response.blob().then(blob => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement('a');
-        alink.href = fileURL;
-        alink.download = 'jeff-berlin-resume.pdf';
-        alink.click();
-      })
-    })
-  }
-
   return (
     <>
       <Navbar collapseOnSelect expand="md" fixed="top">
@@ -80,7 +64,9 @@ function ContactNav() {
             </Nav>
             <Nav>
               <Nav.Item>
-                <button className="download-btn" onClick={onButtonClick}>Download Resume</button>
+                <a href="/jeff-berlin-resume.pdf" download="jeff-berlin-resume" alt="Download Resume PDF" title="Download Resume PDF">
+                  <button className="download-btn">Download Resume</button>
+                </a>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>

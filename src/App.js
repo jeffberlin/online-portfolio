@@ -27,6 +27,7 @@ const TruColorsBrochurePage = React.lazy(() => import('./Components/Portfolio/Pr
 const JomoFadeoutPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/JomoFadeoutPage'))
 const AppSlabTimberOnePage = React.lazy(() => import('./Components/Portfolio/ProjectPages/AppSlabTimberOnePage'))
 const AppSlabTimberTwoPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/AppSlabTimberTwoPage'))
+const IlmBrewPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/IlmBrewPage'))
 
 function App() {
   return (
@@ -114,6 +115,14 @@ function App() {
           element={
             <Suspense fallback={<div>Loading...</div>}>
               <AppSlabTimberTwoPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="wilmington-brew"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <IlmBrewPage />
             </Suspense>
           }
         />
