@@ -64,8 +64,8 @@ function ContactNav() {
             </Nav>
             <Nav>
               <Nav.Item>
-                <a href="/jeff-berlin-resume.pdf" download="jeff-berlin-resume" alt="Download Resume PDF" title="Download Resume PDF">
-                  <button className="download-btn">Download Resume</button>
+                <a href="./jeff-berlin-resume.pdf" download="jeff-berlin-resume" alt="Download Resume PDF" title="Download Resume PDF">
+                  <button className="download-btn" type="button">Download Resume</button>
                 </a>
               </Nav.Item>
             </Nav>
