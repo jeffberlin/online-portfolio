@@ -6,7 +6,7 @@ import appSlabTimberTwo from '../images/app-logo-2-full.jpg';
 
 function AppSlabTimberTwoPage() {
   return (
-    <div className="project-img-page" style={{ paddingTop: '5rem', paddingBottom: '3rem' }}>
+    <div className="project-img-page">
       <Container>
         <Row className="justify-content-center text-center">
           <Col lg={10}>

@@ -10,6 +10,7 @@ import bmtBlogPhoto from './images/bmt-micro-blog.jpg';
 import fourthFlyer from './images/may-4th-flyer.jpg';
 import bmtCustomerHelp from './images/bmt-micro-help-customers.jpg';
 import bmtVendorHelp from './images/bmt-micro-help-vendors.jpg';
+import juracapressoDoctor from './images/juracapresso-doctor.jpg';
 import bmtEmail from './images/bmt-micro-email-template.jpg';
 import tcbWebsite from './images/tcb-website.jpg';
 import tcbBrochure from './images/tcb-brochure.jpg';
@@ -71,6 +72,16 @@ const projects = [
     type: "Website",
     target: "_blank",
     id: "4"
+  },
+  {
+    title: "Juracapresso Doctor",
+    image: juracapressoDoctor,
+    url: "https://jeffberlin.github.io/Juracapresso-Doctor/",
+    category: "Development, Design",
+    description: "A website and logo created for Juracapresso Doctor for selling specialty tools and replacement parts for espresso machines. The website was built using HTML, CSS, Bootstrap, AngularJS, JavaScript, and jQuery. The logo was created using Adobe Photoshop.",
+    type: "Website",
+    target: "_blank",
+    id: "22"
   },
   {
     title: "Jeff Berlin Racing",

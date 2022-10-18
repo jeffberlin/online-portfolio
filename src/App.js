@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import './App.css';
+import './css/App.css';
 import { Routes, Route, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -28,6 +28,8 @@ const JomoFadeoutPage = React.lazy(() => import('./Components/Portfolio/ProjectP
 const AppSlabTimberOnePage = React.lazy(() => import('./Components/Portfolio/ProjectPages/AppSlabTimberOnePage'))
 const AppSlabTimberTwoPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/AppSlabTimberTwoPage'))
 const IlmBrewPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/IlmBrewPage'))
+// Load Error
+const ErrorPage = React.lazy(() => import('./Components/ErrorPage'))
 
 function App() {
   return (
@@ -126,6 +128,7 @@ function App() {
             </Suspense>
           }
         />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </div>
