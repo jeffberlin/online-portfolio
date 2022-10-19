@@ -48,7 +48,7 @@ a, a:hover, .download-btn, .nav-item:hover {
   font-size: 1.3rem;
 }
 
-.fa, .fa:hover {
+.fa, .social-icon .fa:hover {
 	font-size: 1.7rem;
   -webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
@@ -60,7 +60,7 @@ a, a:hover, .download-btn, .nav-item:hover {
   opacity: .8;
 }
 
-.fa:hover {
+.social-icon .fa:hover {
   opacity: 1;
 }
 
