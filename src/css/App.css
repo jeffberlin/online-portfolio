@@ -31,6 +31,30 @@ a, a:hover, .download-btn, .nav-item:hover {
   text-align: right !important;
 }
 
+.scrolltop {
+	z-index: 30;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	/* box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3); */
+	/* background-clip: padding-box; */
+	position: fixed;
+	bottom: 18px;
+	right: 18px;
+	opacity: 1;
+  animation: display 0.5s;
+	-webkit-animation: display 0.5s;
+	-moz-animation: display 0.5s;
+  border: none;
+}
+
+.scrolltop .fa-angle-up {
+	font-size: 1.5rem;
+	top: 0px;
+  position: relative;
+	font-weight: normal;
+}
+
 .project-img-page {
   min-height: calc(100vh - 100px);
   padding-top: 5rem;
@@ -64,7 +88,7 @@ a, a:hover, .download-btn, .nav-item:hover {
   opacity: 1;
 }
 
-.fa, .download-btn, .name, .contact-info div, .nav-item, footer {
+.fa, .download-btn, .name, .contact-info div, .nav-item, footer, .scrolltop .fa-angle-up {
   color: #fff;
 }
 
@@ -73,10 +97,13 @@ a, a:hover, .download-btn, .nav-item:hover {
 }
 
 .download-btn {
-	background-color: #00635a;
 	border-radius: .2rem;
 	text-shadow: 0 1px 1px #04423c;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.download-btn, .scrolltop {
+  background-color: #00635a;
 }
 
 .download-btn, .open-project, .close-project {
@@ -180,13 +207,16 @@ a, a:hover, .download-btn, .nav-item:hover {
 .skills li {
 	padding: .8rem .9rem;
 	width: 9rem;
-	display: inline-block;
 	border: 1px solid #d0d0d0;
 	margin: .3rem;
 	letter-spacing: .7px;
 	border-radius: .3rem;
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   list-style: none;
+}
+
+.skills li, .scrolltop {
+  display: inline-block;
 }
 
 .job-title, .edu-course {

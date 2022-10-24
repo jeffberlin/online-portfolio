@@ -30,6 +30,8 @@ const AppSlabTimberTwoPage = React.lazy(() => import('./Components/Portfolio/Pro
 const IlmBrewPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/IlmBrewPage'))
 // Load Error
 const ErrorPage = React.lazy(() => import('./Components/ErrorPage'))
+// Load ScrollToTop
+const ScrollTop = React.lazy(() => import('./Components/ScrollTop'))
 
 function App() {
   return (
@@ -45,6 +47,7 @@ function App() {
               <Jobs />
               <Education />
               <Portfolio />
+              <ScrollTop />
             </Suspense>
           }
         />
