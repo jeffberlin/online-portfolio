@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -6,6 +7,10 @@ import Image from 'react-bootstrap/Image';
 import truColorsBrochure from '../images/tru-colors-brochure.pdf';
 
 function TruColorsBrochurePage() {
+  useEffect(() => {
+    document.title = "Jeff Berlin - TRU Colors Brewery Brochure"
+  })
+
   return (
     <div className="project-img-page">
       <Container>

@@ -159,7 +159,7 @@ const projects = [
     url: "/bmt-micro-email",
     category: "Development, Design",
     description: "This project is an HTML email template that is used for BMT Micro\'s automated email responses. The template was designed using Adobe XD.",
-    type: "Image",
+    type: "Design",
     target: "_blank",
     id: "12"
   },
@@ -179,7 +179,7 @@ const projects = [
     url: "/tru-colors-brochure",
     category: "Design",
     description: "Created this company brochure to provide additional information about TRU Colors Brewing. This was made using Adobe InDesign and Photoshop.",
-    type: "Image",
+    type: "Brochure",
     target: "_blank",
     id: "14"
   },

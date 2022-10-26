@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -5,6 +6,10 @@ import Image from 'react-bootstrap/Image';
 import appSlabTimberTwo from '../images/app-logo-2-full.jpg';
 
 function AppSlabTimberTwoPage() {
+  useEffect(() => {
+    document.title = "Jeff Berlin - Appalachian Slab & Timber Logo"
+  })
+
   return (
     <div className="project-img-page">
       <Container>

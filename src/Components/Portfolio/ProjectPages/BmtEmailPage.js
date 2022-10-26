@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -5,6 +6,10 @@ import Image from 'react-bootstrap/Image';
 import bmtEmail from '../images/bmt-micro-email-full.jpg';
 
 function BmtEmailPage() {
+  useEffect(() => {
+    document.title = "Jeff Berlin - BMT Micro HTML Email Design"
+  })
+
   return (
     <div className="project-img-page">
       <Container>

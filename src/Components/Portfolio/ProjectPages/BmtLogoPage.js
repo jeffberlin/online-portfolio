@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -5,6 +6,10 @@ import Image from 'react-bootstrap/Image';
 import bmtLogo from '../images/bmt-micro-logo-full.png';
 
 function BmtLogoPage() {
+  useEffect(() => {
+    document.title = "Jeff Berlin - BMT Micro Logo"
+  })
+
   return (
     <div className="project-img-page">
       <Container>
