@@ -1,7 +1,12 @@
+import { useEffect } from 'react';
 import ContactNav from './ContactNav';
 import MainNav from './MainNav';
 
 function Nav() {
+  useEffect(() => {
+    document.title = "Jeff Berlin Portfolio"
+  })
+  
   return (
     <header>
       <MainNav />
