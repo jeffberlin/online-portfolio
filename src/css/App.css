@@ -56,11 +56,11 @@ a, a:hover, .download-btn, .nav-item:hover {
 }
 
 .project-img-page {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 160px);
   padding-top: 5rem;
 }
 
-.project-img-page, .section-container {
+.project-img-page, .section-container, .back-btn {
   background-color: #fff;
 }
 
@@ -110,14 +110,14 @@ a, a:hover, .download-btn, .nav-item:hover {
   border: none;
 }
 
-.download-btn, .open-project, .close-project, .card-footer-button {
+.download-btn, .open-project, .close-project, .card-footer-button, .back-btn a {
   transition: all .3s ease;
   -webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	-o-transition: all .3s ease;
 }
 
-.download-btn, .contact-info div, .tag, .text-thin, .section-description, .open-project, .close-project, .card-title, .card-footer a, .card-footer-button, footer, .project-img-page p {
+.download-btn, .contact-info div, .tag, .text-thin, .section-description, .open-project, .close-project, .card-title, .card-footer a, .card-footer-button, footer, .project-img-page p, .back-btn {
   letter-spacing: .5px;
 }
 
@@ -200,7 +200,7 @@ a, a:hover, .download-btn, .nav-item:hover {
   letter-spacing: .8px;
 }
 
-.skills h4, .section-place, .open-project, .error-link {
+.skills h4, .section-place, .open-project, .error-link, .back-btn {
   color: #009688;
 }
 
@@ -279,7 +279,7 @@ a, a:hover, .download-btn, .nav-item:hover {
   -moz-box-shadow: 0 2px 10px 3px rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.08), 0 8px 14px 0 rgba(0,0,0,.08);
 }
 
-.card-title {
+.card-title, .back-btn {
   font-size: 1.1rem;
 }
 
@@ -314,6 +314,14 @@ a, a:hover, .download-btn, .nav-item:hover {
 footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.back-btn {
+  font-weight: 600;
+}
+
+.back-btn a:hover > i, .back-btn a:hover {
+  color: #00635a !important;
 }
 
 @media (min-width: 992px) {

@@ -1,6 +1,6 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useState, useEffect } from 'react';
 import './css/App.css';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link, useLocation } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Load nav
@@ -32,108 +32,138 @@ const IlmBrewPage = React.lazy(() => import('./Components/Portfolio/ProjectPages
 const ErrorPage = React.lazy(() => import('./Components/ErrorPage'))
 // Load ScrollToTop
 const ScrollTop = React.lazy(() => import('./Components/ScrollTop'))
+// Load Back button
+const BackButton = React.lazy(() => import('./Components/BackButton'))
 
 function App() {
+  const location = useLocation();
+  const [displayLocation, setDisplayLocation] = useState(location);
+  const [transitionStage, setTransitionStage] = useState("fadeIn");
+
+  useEffect(() => {
+    if (location !== displayLocation) setTransitionStage("fadeOut");
+  }, [location, displayLocation]);
+
   return (
     <div className="App">
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <Nav />
-              <About />
-              <Skills />
-              <Jobs />
-              <Education />
-              <Portfolio />
-              <ScrollTop />
-            </Suspense>
+      <div
+        className={ `${transitionStage}` }
+        onAnimationEnd={() => {
+          if (transitionStage === "fadeOut") {
+            setTransitionStage("fadeIn");
+            setDisplayLocation(location);
           }
-        />
-        <Route
-          path="bmt-micro-logo"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <BmtLogoPage />
-            </Suspense>
-          }
-        />
-        <Route
-          path="back-to-80-flyer"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <BackTo80Page />
-            </Suspense>
-          }
-        />
-        <Route
-          path="sp-flyer"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <SpFlyerPage />
-            </Suspense>
-          }
-        />
-        <Route
-          path="may-4th-flyer"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <May4thPage />
-            </Suspense>
-          }
-        />
-        <Route
-          path="bmt-micro-email"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <BmtEmailPage />
-            </Suspense>
-          }
-        />
-        <Route
-          path="tru-colors-brochure"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <TruColorsBrochurePage />
-            </Suspense>
-          }
-        />
-        <Route
-          path="jomo-fadeout"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <JomoFadeoutPage />
-            </Suspense>
-          }
-        />
-        <Route
-          path="appalachian-slab-timber"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <AppSlabTimberOnePage />
-            </Suspense>
-          }
-        />
-        <Route
-          path="appalachian-slab-timber-logo"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <AppSlabTimberTwoPage />
-            </Suspense>
-          }
-        />
-        <Route
-          path="wilmington-brew"
-          element={
-            <Suspense fallback={<div>Loading...</div>}>
-              <IlmBrewPage />
-            </Suspense>
-          }
-        />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
-      <Footer />
+        }}
+      >
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Nav />
+                <About />
+                <Skills />
+                <Jobs />
+                <Education />
+                <Portfolio />
+                <ScrollTop />
+              </Suspense>
+            }
+          />
+          <Route
+            path="bmt-micro-logo"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <BackButton />
+                <BmtLogoPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="back-to-80-flyer"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <BackButton />
+                <BackTo80Page />
+              </Suspense>
+            }
+          />
+          <Route
+            path="sp-flyer"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <BackButton />
+                <SpFlyerPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="may-4th-flyer"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <BackButton />
+                <May4thPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="bmt-micro-email"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <BackButton />
+                <BmtEmailPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="tru-colors-brochure"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <BackButton />
+                <TruColorsBrochurePage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="jomo-fadeout"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <BackButton />
+                <JomoFadeoutPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="appalachian-slab-timber"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <BackButton />
+                <AppSlabTimberOnePage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="appalachian-slab-timber-logo"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <BackButton />
+                <AppSlabTimberTwoPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="wilmington-brew"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <BackButton />
+                <IlmBrewPage />
+              </Suspense>
+            }
+          />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+        <Footer />
+      </div>
     </div>
   );
 }

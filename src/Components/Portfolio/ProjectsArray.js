@@ -60,7 +60,7 @@ const projects = [
     category: "Design",
     description: "Created a new company logo for BMT Micro using Adobe Photoshop and Illustrator that is starting to be rolled out through the new, redesigned websites.",
     type: "Logo",
-    target: "_blank",
+    target: "_self",
     id: "3"
   },
   {
@@ -100,7 +100,7 @@ const projects = [
     category: "Design",
     description: "The event flyer for DJ Straftanz\'s \"Back To The 80\'s\" show. This was created using Adobe Photoshop.",
     type: "Flyer",
-    target: "_blank",
+    target: "_self",
     id: "6"
   },
   {
@@ -110,7 +110,7 @@ const projects = [
     category: "Design",
     description: "Kroenke Sports & Entertainment\'s former in-arena host, Stephen Pond, approached me to create a flyer for his birthday events. This was created using Adobe Photoshop.",
     type: "Flyer",
-    target: "_blank",
+    target: "_self",
     id: "7"
   },
   {
@@ -130,7 +130,7 @@ const projects = [
     category: "Design",
     description: "The event flyer for DJ Straftanz\'s \"May the Fourth\" show. This was created using Adobe Photoshop.",
     type: "Flyer",
-    target: "_blank",
+    target: "_self",
     id: "9"
   },
   {
@@ -160,7 +160,7 @@ const projects = [
     category: "Development, Design",
     description: "This project is an HTML email template that is used for BMT Micro\'s automated email responses. The template was designed using Adobe XD.",
     type: "Design",
-    target: "_blank",
+    target: "_self",
     id: "12"
   },
   {
@@ -180,7 +180,7 @@ const projects = [
     category: "Design",
     description: "Created this company brochure to provide additional information about TRU Colors Brewing. This was made using Adobe InDesign and Photoshop.",
     type: "Brochure",
-    target: "_blank",
+    target: "_self",
     id: "14"
   },
   {
@@ -210,7 +210,7 @@ const projects = [
     category: "Design",
     description: "Created for the JOMO Charlotte prize giveaway videos to be used as the fade-out screen for each video. This was created with Adobe Photoshop.",
     type: "Image",
-    target: "_blank",
+    target: "_self",
     id: "17"
   },
   {
@@ -230,7 +230,7 @@ const projects = [
     category: "Design",
     description: "A logo created for a North Carolina timber company using Adobe Illustrator and Photoshop.",
     type: "Image",
-    target: "_blank",
+    target: "_self",
     id: "19"
   },
   {
@@ -240,7 +240,7 @@ const projects = [
     category: "Design",
     description: "This logo will be used by a North Carolina timber company to brand their logs. I created this logo using Adobe Illustrator and Photoshop.",
     type: "Image",
-    target: "_blank",
+    target: "_self",
     id: "20"
   },
   {
@@ -250,7 +250,7 @@ const projects = [
     category: "Design",
     description: "A logo for a project website that I created. This was created using Adobe Photoshop and Sketch.",
     type: "Image",
-    target: "_blank",
+    target: "_self",
     id: "21"
   }
 ];
