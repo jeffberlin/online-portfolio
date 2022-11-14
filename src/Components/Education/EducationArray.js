@@ -1,6 +1,14 @@
 const education = [
   {
     name: "Udacity",
+    url: "https://www.udacity.com/course/ux-designer-nanodegree--nd578",
+    course: "UX Designer - Nanodegree/Certification",
+    start: "November 2022",
+    end: "Present",
+    description: "Learn how to create a digital user experience that is ready to be handed off for development. Start by building familiarity and fluency with design research fundamentals to identify the user and the solutions they need. Use design sprints to take an idea from concept to low-fidelity prototype and turn low-fidelity prototype into a high-fidelity design, and improve its performance based on data."
+  },
+  {
+    name: "Udacity",
     url: "https://www.udacity.com/course/react-nanodegree--nd019",
     course: "React Development - Nanodegree/Certification",
     start: "June 2018",
