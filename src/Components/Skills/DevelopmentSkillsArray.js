@@ -4,7 +4,7 @@ const development = [
   'Bootstrap',
   'Foundation',
   'Javascript',
-  'JQuery',
+  'jQuery',
   'KnockoutJS',
   'React',
   'React-Native',

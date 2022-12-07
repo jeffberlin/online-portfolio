@@ -35,6 +35,9 @@ const ScrollTop = React.lazy(() => import('./Components/ScrollTop'))
 // Load Back button
 const BackButton = React.lazy(() => import('./Components/BackButton'))
 
+// Load Home to direct where to go
+const Home = React.lazy(() => import('./Components/Home/Home'))
+
 function App() {
   const location = useLocation();
   const [displayLocation, setDisplayLocation] = useState(location);
@@ -60,6 +63,7 @@ function App() {
             path="/"
             element={
               <Suspense fallback={<div>Loading...</div>}>
+                {/* <Home /> */}
                 <Nav />
                 <About />
                 <Skills />
@@ -70,6 +74,20 @@ function App() {
               </Suspense>
             }
           />
+          {/* <Route
+            path="/resume"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+            <Nav />
+            <About />
+            <Skills />
+            <Jobs />
+            <Education />
+            <Portfolio />
+            <ScrollTop />
+              </Suspense>
+            }
+          /> */}
           <Route
             path="bmt-micro-logo"
             element={
