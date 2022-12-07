@@ -3,6 +3,7 @@ const design = [
   'Illustrator',
   'InDesign',
   'XD',
+  'Figma',
   'Sketch'
 ];
 
