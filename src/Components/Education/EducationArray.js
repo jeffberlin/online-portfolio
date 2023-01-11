@@ -13,7 +13,7 @@ const education = [
     course: "React Development - Nanodegree/Certification",
     start: "June 2018",
     end: "October 2018",
-    description: "Learning the in\'s and out\'s of the React, React Native, and Redux frameworks through this course. To successfully complete the course, we had to complete 3 total projects, using each framework."
+    description: "Learning the in's and out's of the React, React Native, and Redux frameworks through this course. To successfully complete the course, we had to complete 3 total projects, using each framework."
   },
   {
     name: "Udacity",

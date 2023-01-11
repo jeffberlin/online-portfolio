@@ -94,11 +94,11 @@ const projects = [
     id: "5"
   },
   {
-    title: "Back To The 80\'s Flyer",
+    title: "Back To The 80's Flyer",
     image: backToFlyer,
     url: "/back-to-80-flyer",
     category: "Design",
-    description: "The event flyer for DJ Straftanz\'s \"Back To The 80\'s\" show. This was created using Adobe Photoshop.",
+    description: "The event flyer for DJ Straftanz's \"Back To The 80's\" show. This was created using Adobe Photoshop.",
     type: "Flyer",
     target: "_self",
     id: "6"
@@ -108,7 +108,7 @@ const projects = [
     image: spFlyer,
     url: "/sp-flyer",
     category: "Design",
-    description: "Kroenke Sports & Entertainment\'s former in-arena host, Stephen Pond, approached me to create a flyer for his birthday events. This was created using Adobe Photoshop.",
+    description: "Kroenke Sports & Entertainment's former in-arena host, Stephen Pond, approached me to create a flyer for his birthday events. This was created using Adobe Photoshop.",
     type: "Flyer",
     target: "_self",
     id: "7"
@@ -128,7 +128,7 @@ const projects = [
     image: fourthFlyer,
     url: "/may-4th-flyer",
     category: "Design",
-    description: "The event flyer for DJ Straftanz\'s \"May the Fourth\" show. This was created using Adobe Photoshop.",
+    description: "The event flyer for DJ Straftanz's \"May the Fourth\" show. This was created using Adobe Photoshop.",
     type: "Flyer",
     target: "_self",
     id: "9"
@@ -158,7 +158,7 @@ const projects = [
     image: bmtEmail,
     url: "/bmt-micro-email",
     category: "Development, Design",
-    description: "This project is an HTML email template that is used for BMT Micro\'s automated email responses. The template was designed using Adobe XD.",
+    description: "This project is an HTML email template that is used for BMT Micro's automated email responses. The template was designed using Adobe XD.",
     type: "Design",
     target: "_self",
     id: "12"
