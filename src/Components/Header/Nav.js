@@ -1,24 +1,27 @@
 import { useEffect } from 'react';
 import ContactNav from './ContactNav';
-import MainNav from './MainNav';
+import Landing from './Landing';
+import Navigation from './Navigation';
 
 function Nav() {
   useEffect(() => {
     document.title = "Jeff Berlin Portfolio"
   })
-  
+
   return (
     <header>
-      <MainNav />
-      <div
+      {/* <MainNav /> */}
+      <Navigation />
+      <Landing />
+      {/* <div
         style={{
           backgroundColor: '#009688',
           paddingTop: '6rem',
           paddingBottom: '8rem'
         }}
-      >
-      </div>
-      <ContactNav />
+        >
+      </div> */}
+      {/* <ContactNav /> */}
     </header>
   );
 }

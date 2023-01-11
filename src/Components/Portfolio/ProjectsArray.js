@@ -48,7 +48,7 @@ const projects = [
     image: bmtAccessPhoto,
     url: "https://vendors.bmtmicro.com/",
     category: "Development, Design",
-    description: "Completely redesigned the vendors, customers, and affiliates centers (same design pattern) for BMT Micro using HTML, CSS, Javascript, JSP, JQuery, and Bootstrap.",
+    description: "Completely redesigned the vendors, customers, and affiliates centers (same design pattern) for BMT Micro using HTML, CSS, Javascript, JSP, jQuery, and Bootstrap.",
     type: "Website",
     target: "_blank",
     id: "2"
@@ -118,7 +118,7 @@ const projects = [
     image: bmtBlogPhoto,
     url: "https://blog.bmtmicro.com",
     category: "Development, Design",
-    description: "A redesigned blog webpage for BMT Micro, Inc. This site was created using WordPress, HTML, CSS, JavaScript, and JQuery.",
+    description: "A redesigned blog webpage for BMT Micro, Inc. This site was created using WordPress, HTML, CSS, JavaScript, and jQuery.",
     type: "Website",
     target: "_blank",
     id: "8"
@@ -168,7 +168,7 @@ const projects = [
     image: tcbWebsite,
     url: "https://jeffberlin.github.io/Tru_Colors_Brewing_updated/",
     category: "Development, Design",
-    description: "This website provides info and insights for TCB with forms to allow future apprentices and contractors to sign up for the program. Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, and Formspree.",
+    description: "This website provides info and insights for TCB with forms to allow future apprentices and contractors to sign up for the program. Built using HTML, CSS, Bootstrap 3, Javascript, jQuery, and Formspree.",
     type: "Website",
     target: "_blank",
     id: "13"
@@ -188,7 +188,7 @@ const projects = [
     image: jomoWebsite,
     url: "https://jeffberlin.github.io/JOMO_website/index.html",
     category: "Development",
-    description: "Before closing down, JOMO was a free mobile app start-up, geared towards creating a more active lifestyle for its users. This site was to help provide information and allow for easy signup/download for the app using HTML, CSS, Bootstrap 3, Javascript, JQuery, and Branch.",
+    description: "Before closing down, JOMO was a free mobile app start-up, geared towards creating a more active lifestyle for its users. This site was to help provide information and allow for easy signup/download for the app using HTML, CSS, Bootstrap 3, Javascript, jQuery, and Branch.",
     type: "Website",
     target: "_blank",
     id: "15"
@@ -198,7 +198,7 @@ const projects = [
     image: jomoGiveaway,
     url: "https://jeffberlin.github.io/JOMO_website/charlotte.html",
     category: "Development",
-    description: "The JOMO Charlotte website provided users with a list of prizes and information on how to win them. Built using HTML, CSS, Bootstrap 3, Javascript, JQuery, Branch, and Vimeo embedding.",
+    description: "The JOMO Charlotte website provided users with a list of prizes and information on how to win them. Built using HTML, CSS, Bootstrap 3, Javascript, jQuery, Branch, and Vimeo embedding.",
     type: "Website",
     target: "_blank",
     id: "16"
@@ -218,7 +218,7 @@ const projects = [
     image: jomoRep,
     url: "https://jeffberlin.github.io/JOMO_website/rep.html",
     category: "Development",
-    description: "This website was created to accumulate college campus representatives to help spread the word about the JOMO app and to create in-app events for other students to attend. It was built using HTML, CSS, Bootstrap 3, Javascript, JQuery, Formspree, and Branch.",
+    description: "This website was created to accumulate college campus representatives to help spread the word about the JOMO app and to create in-app events for other students to attend. It was built using HTML, CSS, Bootstrap 3, Javascript, jQuery, Formspree, and Branch.",
     type: "Website",
     target: "_blank",
     id: "18"

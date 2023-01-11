@@ -16,7 +16,7 @@ function Education() {
           <Row className="justify-content-center" key={index}>
             <Col lg={10} md={12} className="edu-info">
               <div>
-                <p className="section-place"><a href={edu.url} target="_blank">{edu.name}</a></p>
+                <p className="section-place"><a href={edu.url} target="_blank">{edu.name}&nbsp;<span className="material-symbols-outlined" style={{ color: 'orange', verticalAlign: 'middle', fontSize: '1.1rem' }}>open_in_new</span></a></p>
                 <p className="edu-course">{edu.course}</p>
                 <p className="text-thin">{edu.start}&nbsp;-&nbsp;{edu.end}</p>
                 <p className="section-description">{edu.description}</p>

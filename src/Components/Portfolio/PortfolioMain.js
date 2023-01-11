@@ -32,11 +32,11 @@ function CustomToggle({ children, eventKey, callback }) {
 
 function Portfolio() {
   return (
-    <section className="projects" id="projects" style={{ paddingTop: '3rem' }}>
+    <section className="projects" id="portfolio" style={{ paddingTop: '3rem' }}>
       <Container className="section-container">
         <Row>
           <Col lg={10}>
-            <h2 className="section-title">Projects</h2>
+            <h2 className="section-title">Portfolio</h2>
           </Col>
         </Row>
         <Accordion>

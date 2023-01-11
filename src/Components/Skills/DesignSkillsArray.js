@@ -4,7 +4,11 @@ const design = [
   'InDesign',
   'XD',
   'Figma',
-  'Sketch'
+  'Sketch',
+  'Zeplin',
+  'UX Research',
+  'User Flow',
+  'Prototyping'
 ];
 
 export default design;

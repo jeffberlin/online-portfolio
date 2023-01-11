@@ -4,7 +4,8 @@ const other = [
   'MS 365',
   'Automotive',
   'Logistics',
-  'Analytics'
+  'Analytics',
+  'Miro',
 ];
 
 export default other;

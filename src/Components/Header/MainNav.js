@@ -7,7 +7,7 @@ import resumePDF from './jeff-berlin-resume.pdf';
 function ContactNav() {
   return (
     <>
-      <Navbar collapseOnSelect expand="md" fixed="top">
+      <Navbar collapseOnSelect expand="lg" fixed="top">
         <Container fluid>
           <Navbar.Brand style={{ display: 'flex' }}>
             <div className="social-icon">

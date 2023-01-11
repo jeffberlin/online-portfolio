@@ -14,7 +14,7 @@ const jobInfo = [
     end: "April 2018",
     company: "TRU Colors Brewing",
     location: "Wilmington, NC",
-    description: "A local startup that will ultimately be run and operated by active gang members - working together to end gang-on-gang violence in our area. My primary responsibilities were to create their company website, consult on ad design questions, and create their brochure to distribute to potential partners. The technology I used to handle the work consists of HTML, CSS, Bootstrap, Javascript, JQuery, Photoshop, InDesign, Illustrator, and Sketch.",
+    description: "A local startup that will ultimately be run and operated by active gang members - working together to end gang-on-gang violence in our area. My primary responsibilities were to create their company website, consult on ad design questions, and create their brochure to distribute to potential partners. The technology I used to handle the work consists of HTML, CSS, Bootstrap, Javascript, jQuery, Photoshop, InDesign, Illustrator, and Sketch.",
     url: "https://www.trucolors.co/"
   },
   {
@@ -23,7 +23,7 @@ const jobInfo = [
     end: "December 2017",
     company: "JOMO, Inc.",
     location: "Wilmington, NC",
-    description: "JOMO was a local mobile app startup, where I was in charge of creating and maintaining their website and additional webpages. Aside from creating, updating, and maintaining the website, I was heavily involved in the daily graphic work that was used for advertising and website content. To create the website and ads, I relied on HTML, CSS, Bootstrap, Javascript, JQuery, Branch.io, Photoshop, Illustrator, and Sketch.",
+    description: "JOMO was a local mobile app startup, where I was in charge of creating and maintaining their website and additional webpages. Aside from creating, updating, and maintaining the website, I was heavily involved in the daily graphic work that was used for advertising and website content. To create the website and ads, I relied on HTML, CSS, Bootstrap, Javascript, jQuery, Branch.io, Photoshop, Illustrator, and Sketch.",
     url: "https://jeffberlin.github.io/JOMO_website/index.html"
   },
   {
