@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -10,7 +10,7 @@ import MyContactModal from './ContactModal';
 
 function Landing() {
   const [modalShow, setModalShow] = React.useState(false);
-  
+
   return (
     <>
       <Container fluid className='landing' style={{ backgroundImage: `url(${headshot})` }}>
@@ -32,14 +32,14 @@ function Landing() {
           </Col>
         </Row>
         <Row className='justify-content-center'>
-          <div className='text-center' style={{ bottom: '0', position: 'absolute'}}>
+          <Col xl={1} lg={1} md={1} sm={1} className='text-center' style={{ bottom: '0', position: 'absolute'}}>
             <Nav.Link
               to="/#portfolio"
               as={MyHashLink}
             >
               <i className='fa fa-chevron-down'></i>
             </Nav.Link>
-          </div>
+          </Col>
         </Row>
       </Container>
 

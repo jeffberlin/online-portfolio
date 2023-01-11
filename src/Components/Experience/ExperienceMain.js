@@ -22,7 +22,7 @@ function Experience() {
             </Col>
             <Col lg={8} md={12} className="job-col-right">
               <div>
-                <p className="section-place"><a href={job.url} target="_blank">{job.company}&nbsp;<span className="material-symbols-outlined" style={{ color: 'orange', verticalAlign: 'middle', fontSize: '1.1rem' }}>open_in_new</span></a></p>
+                <p className="section-place"><a href={job.url} target="_blank" rel="noreferrer">{job.company}&nbsp;<span className="material-symbols-outlined" style={{ color: 'orange', verticalAlign: 'middle', fontSize: '1.1rem' }}>open_in_new</span></a></p>
                 <p className="job-title md-screen">{job.title}</p>
                 <p className="text-thin md-screen">{job.start}&nbsp;-&nbsp;{job.end}</p>
                 <p className="text-thin"><i className="fa fa-map-marker"></i>{job.location}</p>

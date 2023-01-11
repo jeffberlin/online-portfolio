@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 import projects from './ProjectsArray';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

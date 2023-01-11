@@ -1,6 +1,6 @@
 import React, { Suspense, useState, useEffect } from 'react';
 import './css/App.css';
-import { Routes, Route, Link, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Load nav

@@ -11,16 +11,16 @@ function ContactNav() {
         <Container fluid>
           <Navbar.Brand style={{ display: 'flex' }}>
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/jeff-berlin" target="_blank" alt="LinkedIn Profile" title="LinkedIn Profile"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/jeff-berlin" target="_blank" rel="noreferrer" alt="LinkedIn Profile" title="LinkedIn Profile"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
             <div className="social-icon">
-              <a href="https://github.com/jeffberlin" target="_blank" alt="Github Profile" title="Github Profile"><i className="fa fa-github" aria-hidden="true"></i></a>
+              <a href="https://github.com/jeffberlin" target="_blank" rel="noreferrer" alt="Github Profile" title="Github Profile"><i className="fa fa-github" aria-hidden="true"></i></a>
             </div>
             <div className="social-icon">
-              <a href="https://angel.co/jeffberlin" target="_blank" alt="AngelList Profile" title="AngelList Profile"><i className="fa fa-angellist" aria-hidden="true"></i></a>
+              <a href="https://angel.co/jeffberlin" target="_blank" rel="noreferrer" alt="AngelList Profile" title="AngelList Profile"><i className="fa fa-angellist" aria-hidden="true"></i></a>
             </div>
             <div className="social-icon">
-              <a href="https://www.behance.net/jeffberlin" target="_blank" alt="Behance Profile" title="Behance Profile"><i className="fa fa-behance" aria-hidden="true"></i></a>
+              <a href="https://www.behance.net/jeffberlin" target="_blank" rel="noreferrer" alt="Behance Profile" title="Behance Profile"><i className="fa fa-behance" aria-hidden="true"></i></a>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
