@@ -10,21 +10,32 @@ function MyContactModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id='contained-modal-title-vcenter'>
-          Contact Me!
+          Contact Me
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className='text-center'>
-        <div className='contact-modal' style={{ marginBottom: '1.5rem' }}>
-          <a href='mailto:jeff@jbrally.com' alt='email' title='Email me'>
-            <span className='fa fa-envelope' style={{ marginRight: '.8rem' }}></span>
-            jeff@jbrally.com
-          </a>
-        </div>
-        <div className='contact-modal'>
-          <a href='tel:1-302-463-5129' alt='Phone number' title='Call me'>
-            <span className='fa fa-phone' style={{ marginRight: '.8rem' }}></span>
-            (302)-463-5129
-          </a>
+
+      <div className='contact-modal'>
+          <ul>
+            <li style={{ listStyleType: 'none', marginBottom: '1.5rem'}}>
+              <a href='mailto:jeff@jbrally.com' alt='email' title='Email me'>
+                <span className='fa fa-envelope' style={{ marginRight: '.8rem' }}></span>
+                jeff@jbrally.com
+              </a>
+            </li>
+            <li style={{ listStyleType: 'none', marginBottom: '1.5rem'}}>
+              <a href='tel:1-302-463-5129' alt='Phone number' title='Call me'>
+                <span className='fa fa-phone' style={{ marginRight: '.8rem' }}></span>
+                (302)-463-5129
+              </a>
+            </li>
+            <li style={{ listStyleType: 'none'}}>
+              <a href='https://www.google.com/maps/place/Wilmington,+NC/@34.2068977,-78.1523955,119498m/data=!3m1!1e3!4m5!3m4!1s0x89a9f5a20debaed5:0x5e66493884093032!8m2!3d34.2103894!4d-77.8868117?hl=en' target='_blank' title='View on a map'>
+                <span className='fa fa-map-marker' style={{ marginRight: '.8rem' }}></span>
+                Wilmington, NC
+              </a>
+            </li>
+          </ul>
         </div>
       </Modal.Body>
     </Modal>

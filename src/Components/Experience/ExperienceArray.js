@@ -1,6 +1,6 @@
 const jobInfo = [
   {
-    title: "Web Developer",
+    title: "Front End Web Developer",
     start: "April 2018",
     end: "Present",
     company: "BMT Micro, Inc.",
@@ -9,7 +9,7 @@ const jobInfo = [
     url: "https://www.bmtmicro.com/"
   },
   {
-    title: "UI/UX Developer (Contractor)",
+    title: "UI/UX Developer (Contract)",
     start: "December 2017",
     end: "April 2018",
     company: "TRU Colors Brewing",
