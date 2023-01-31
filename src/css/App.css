@@ -251,7 +251,8 @@ a, a:hover, .download-btn, .nav-item:hover {
 }
 
 .job-title, .text-thin i, .text-thin, .edu-course, .section-description {
-  color: #666;
+  /* color: #666; */
+  color: #595959;
 }
 
 .job-col-left {
@@ -434,3 +435,5 @@ footer {
     left: -50% !important;
   }
 }
+
+.remove-border-bottom {border-bottom: none !important;}

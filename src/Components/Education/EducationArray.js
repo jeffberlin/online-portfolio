@@ -1,3 +1,7 @@
+import UXDesignCert from './images/udacity-ux-designer-certification.jpg';
+import ReactCert from './images/Udacity-React-Certificate.jpg';
+import FendCert from './images/Udacity-FEND-Certificate.jpg';
+
 const education = [
   {
     name: "Udacity",
@@ -5,7 +9,9 @@ const education = [
     course: "UX Designer - Nanodegree/Certification",
     start: "November 2022",
     end: "January 2023",
-    description: "Learn how to create a digital user experience that is ready to be handed off for development. Start by building familiarity and fluency with design research fundamentals to identify the user and the solutions they need. Use design sprints to take an idea from concept to low-fidelity prototype and turn low-fidelity prototype into a high-fidelity design, and improve its performance based on data."
+    description: "Learn how to create a digital user experience that is ready to be handed off for development. Start by building familiarity and fluency with design research fundamentals to identify the user and the solutions they need. Use design sprints to take an idea from concept to low-fidelity prototype and turn low-fidelity prototype into a high-fidelity design, and improve its performance based on data.",
+    image: UXDesignCert,
+    imageAlt: "Certification image"
   },
   {
     name: "Udacity",
@@ -13,7 +19,10 @@ const education = [
     course: "React Development - Nanodegree/Certification",
     start: "June 2018",
     end: "October 2018",
-    description: "Learning the in's and out's of the React, React Native, and Redux frameworks through this course. To successfully complete the course, we had to complete 3 total projects, using each framework."
+    description: "Learning the in's and out's of the React, React Native, and Redux frameworks through this course. To successfully complete the course, we had to complete 3 total projects, using each framework.",
+    image: ReactCert,
+    imageAlt: "Certification image"
+
   },
   {
     name: "Udacity",
@@ -21,7 +30,10 @@ const education = [
     course: "Front End Web Development - Nanodegree/Certification",
     start: "August 2016",
     end: "March 2017",
-    description: "Through this Front End Developer program, I learned how to become proficient using HTML, CSS, and Javascript. Some of the tools, skills, and languages I had to use in order to properly complete the course projects were: DOM manipulation, browser leveraging, Knockoutjs, Google Maps API, Pagespeed insights, responsive web design, and Jasmine Unit Testing."
+    description: "Through this Front End Developer program, I learned how to become proficient using HTML, CSS, and Javascript. Some of the tools, skills, and languages I had to use in order to properly complete the course projects were: DOM manipulation, browser leveraging, Knockoutjs, Google Maps API, Pagespeed insights, responsive web design, and Jasmine Unit Testing.",
+    image: FendCert,
+    imageAlt: "Certification image"
+
   },
   {
     name: "Horry-Georgetown Technical College",
@@ -29,7 +41,8 @@ const education = [
     course: "Digital Arts",
     start: "January 2016",
     end: "January 2017",
-    description: "After taking a few graphic design classes, I became familiar with programs that include Adobe Photoshop, Illustrator, InDesign, and Sketch. These courses led to my interest in learning how to code."
+    description: "After taking a few graphic design classes, I became familiar with programs that include Adobe Photoshop, Illustrator, InDesign, and Sketch. These courses led to my interest in learning how to code.",
+    borderBottom: "remove-border-bottom"
   }
 ];
 
