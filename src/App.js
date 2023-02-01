@@ -17,7 +17,7 @@ const Education = React.lazy(() => import('./Components/Education/EducationMain'
 const Portfolio = React.lazy(() => import('./Components/Portfolio/PortfolioMain'))
 // Load footer
 const Footer = React.lazy(() => import('./Components/Footer'))
-// Load Project image pages
+// Load Project pages
 const BmtLogoPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/BmtLogoPage'))
 const BackTo80Page = React.lazy(() => import('./Components/Portfolio/ProjectPages/BackTo80Page'))
 const SpFlyerPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/SpFlyerPage'))
@@ -28,6 +28,7 @@ const JomoFadeoutPage = React.lazy(() => import('./Components/Portfolio/ProjectP
 const AppSlabTimberOnePage = React.lazy(() => import('./Components/Portfolio/ProjectPages/AppSlabTimberOnePage'))
 const AppSlabTimberTwoPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/AppSlabTimberTwoPage'))
 const IlmBrewPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/IlmBrewPage'))
+const FoodTruckFinderPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/FoodTruckFinderPage'))
 // Load Error
 const ErrorPage = React.lazy(() => import('./Components/ErrorPage'))
 // Load ScrollToTop
@@ -157,6 +158,15 @@ function App() {
               <Suspense fallback={<div>Loading...</div>}>
                 <BackButton />
                 <IlmBrewPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="food-truck-finder-app"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <BackButton />
+                <FoodTruckFinderPage />
               </Suspense>
             }
           />
