@@ -22,17 +22,28 @@ import appLogo1 from './images/app-logo-1.jpg';
 import appLogo2 from './images/app-logo-2.jpg';
 import ilmBrewLogo from './images/ilm-brew-logo.jpg';
 import FoodTruckScreens from './images/food-truck-screens.jpg';
+import BMTappScreens from './images/bmt-app-screens.jpg';
 
 const projects = [
   {
     title: "Food Truck Finder",
     image: FoodTruckScreens,
     url: "/food-truck-finder-app",
-    category: "Design, Prototyping",
+    category: "Design, Prototype",
     description: "A Udacity UX Designer course project that I created using Figma for design and prototyping. These designs were brought to life after low-fidelity designs, user survey's, and usability testing. Zeplin was used to create the style guide.",
     type: "Protoype",
     target: "_self",
     id: "22"
+  },
+  {
+    title: "BMT Micro App",
+    image: BMTappScreens,
+    url: "https://www.behance.net/gallery/162946505/BMT-Micro-App-Sample-%28in-progress%29",
+    category: "Design, Prototype",
+    description: "A sample project for a BMT Micro mobile app. These designs were created using Figma.",
+    type: "Images",
+    target: "_blank",
+    id: "23"
   },
   {
     title: "BMT Micro Homepage",
