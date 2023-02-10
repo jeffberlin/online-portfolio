@@ -29,6 +29,7 @@ const AppSlabTimberOnePage = React.lazy(() => import('./Components/Portfolio/Pro
 const AppSlabTimberTwoPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/AppSlabTimberTwoPage'))
 const IlmBrewPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/IlmBrewPage'))
 const FoodTruckFinderPage = React.lazy(() => import('./Components/Portfolio/ProjectPages/FoodTruckFinderPage'))
+const AutoGaragePage = React.lazy(() => import('./Components/Portfolio/ProjectPages/AutoGaragePage'))
 // Load Error
 const ErrorPage = React.lazy(() => import('./Components/ErrorPage'))
 // Load ScrollToTop
@@ -167,6 +168,15 @@ function App() {
               <Suspense fallback={<div>Loading...</div>}>
                 <BackButton />
                 <FoodTruckFinderPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="auto-garage-wireframe"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <BackButton />
+                <AutoGaragePage />
               </Suspense>
             }
           />

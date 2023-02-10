@@ -23,6 +23,7 @@ import appLogo2 from './images/app-logo-2.jpg';
 import ilmBrewLogo from './images/ilm-brew-logo.jpg';
 import FoodTruckScreens from './images/food-truck-screens.jpg';
 import BMTappScreens from './images/bmt-app-screens.jpg';
+import autoGaragePhoto from './images/auto-garage-landing-wireframe-400px.jpg';
 
 const projects = [
   {
@@ -54,6 +55,16 @@ const projects = [
     type: "Website",
     target: "_blank",
     id: "0"
+  },
+  {
+    title: "Auto Garage Landing Page",
+    image: autoGaragePhoto,
+    url: "/auto-garage-wireframe",
+    category: "Design",
+    description: "Wireframe for a landing page of an automotive shop. Created using Figma.",
+    type: "Wireframe",
+    target: "_self",
+    id: "24"
   },
   {
     title: "BMT Micro Info Site",
