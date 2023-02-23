@@ -24,8 +24,19 @@ import ilmBrewLogo from './images/ilm-brew-logo.jpg';
 import FoodTruckScreens from './images/food-truck-screens.jpg';
 import BMTappScreens from './images/bmt-app-screens.jpg';
 import autoGaragePhoto from './images/auto-garage-landing-wireframe-400px.jpg';
+import foodTruckCaseStudy from './images/food-truck-finder-case-study.jpg';
 
 const projects = [
+  {
+    title: "Food Truck Finder Case Study",
+    image: foodTruckCaseStudy,
+    url: "https://www.behance.net/gallery/164446133/Food-Truck-Finder-App-Case-Study",
+    category: "Design, Prototype",
+    description: "This is the case study that describes my journey throughout the design process for the Food Truck Finder app. It includes some sketches, survey results, ideation, and high fidelity screens.",
+    type: "on Behance",
+    target: "_blank",
+    id: "25"
+  },
   {
     title: "Food Truck Finder",
     image: FoodTruckScreens,
@@ -114,7 +125,7 @@ const projects = [
     description: "A website and logo created for Juracapresso Doctor for selling specialty tools and replacement parts for espresso machines. The website was built using HTML, CSS, Bootstrap, AngularJS, JavaScript, and jQuery. The logo was created using Adobe Photoshop.",
     type: "Website",
     target: "_blank",
-    id: "22"
+    id: "26"
   },
   {
     title: "Jeff Berlin Racing",
