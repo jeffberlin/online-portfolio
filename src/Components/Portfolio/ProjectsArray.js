@@ -25,6 +25,7 @@ import FoodTruckScreens from './images/food-truck-screens.jpg';
 import BMTappScreens from './images/bmt-app-screens.jpg';
 import autoGaragePhoto from './images/auto-garage-landing-wireframe-400px.jpg';
 import foodTruckCaseStudy from './images/food-truck-finder-case-study.jpg';
+import roundedHotelPhoto from './images/rounded-hotel-wireframe-400px.jpg';
 
 const projects = [
   {
@@ -48,6 +49,16 @@ const projects = [
     id: "22"
   },
   {
+    title: "BMT Micro Homepage",
+    image: bmtHomepagePhoto,
+    url: "https://www.bmtmicro.com/",
+    category: "Development, Design",
+    description: "A full-on overhaul of the BMT Micro, Inc. company website. This website was built using HTML/JSX, CSS, ReactJS, React-Router, and React-Bootstrap.",
+    type: "Website",
+    target: "_blank",
+    id: "0"
+  },
+  {
     title: "BMT Micro App",
     image: BMTappScreens,
     url: "https://www.behance.net/gallery/162946505/BMT-Micro-App-Sample-%28in-progress%29",
@@ -58,14 +69,14 @@ const projects = [
     id: "23"
   },
   {
-    title: "BMT Micro Homepage",
-    image: bmtHomepagePhoto,
-    url: "https://www.bmtmicro.com/",
-    category: "Development, Design",
-    description: "A full-on overhaul of the BMT Micro, Inc. company website. This website was built using HTML/JSX, CSS, ReactJS, React-Router, and React-Bootstrap.",
-    type: "Website",
+    title: "Hotel Software Landing Page",
+    image: roundedHotelPhoto,
+    url: "https://www.figma.com/proto/necd3YOIBYPVfN09dArU4d/Rounded-Hotel?page-id=0%3A1&node-id=1%3A2&viewport=613%2C134%2C0.61&scaling=min-zoom",
+    category: "Design",
+    description: "Landing page wireframe for a hotel software company. Created using Figma.",
+    type: "Prototype",
     target: "_blank",
-    id: "0"
+    id: "27"
   },
   {
     title: "Auto Garage Landing Page",
