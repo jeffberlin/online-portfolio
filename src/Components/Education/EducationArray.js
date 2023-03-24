@@ -9,7 +9,7 @@ const education = [
     course: "UX Designer - Nanodegree/Certification",
     start: "November 2022",
     end: "January 2023",
-    description: "Learn how to create a digital user experience that is ready to be handed off for development. Start by building familiarity and fluency with design research fundamentals to identify the user and the solutions they need. Use design sprints to take an idea from concept to low-fidelity prototype and turn low-fidelity prototype into a high-fidelity design, and improve its performance based on data.",
+    description: "Learned how to create a digital user experience that is ready to be handed off for development. Started by building familiarity and fluency with design research fundamentals to identify the user and the solutions they need. Used design sprints to take an idea from concept to low-fidelity prototype and turn low-fidelity prototype into a high-fidelity design, and improve its performance based on data.",
     image: UXDesignCert,
     imageAlt: "Certification image"
   },
@@ -19,7 +19,7 @@ const education = [
     course: "React Development - Nanodegree/Certification",
     start: "June 2018",
     end: "October 2018",
-    description: "Learning the in's and out's of the React, React Native, and Redux frameworks through this course. To successfully complete the course, we had to complete 3 total projects, using each framework.",
+    description: "Learned the in's and out's of the React, React Native, and Redux frameworks through this course. To successfully complete the course, I had to complete 3 total projects, using each framework.",
     image: ReactCert,
     imageAlt: "Certification image"
 
