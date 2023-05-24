@@ -19,7 +19,7 @@ function Landing() {
             <div className='name-box'>
               <h1>Jeff Berlin</h1>
               <h2>UI/UX Developer & Designer</h2>
-              <p style={{ color: '#fff' }}>I am a highly motivated UI/UX developer and designer with over four years of experience working in different industries. I also love learning and problem solving.</p>
+              <p style={{ color: '#fff' }}>I am a highly motivated UI/UX developer and designer with over five years of experience working in different industries. I also love learning and problem solving.</p>
               <div className='text-center'>
                 <button
                   className='contact-btn'
