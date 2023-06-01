@@ -17,12 +17,13 @@ function Landing() {
         <Row>
           <Col xl={6} lg={6} md={8} style={{ paddingLeft: '0'}}>
             <div className='name-box'>
-              <h1>Jeff Berlin</h1>
-              <h2>UI/UX Developer & Designer</h2>
-              <p style={{ color: '#fff' }}>I am a highly motivated UI/UX developer and designer with over five years of experience working in different industries. I also love learning and problem solving.</p>
+              <h1 className='lato'>Jeff Berlin</h1>
+              <h2 className='roboto' style={{ letterSpacing: '.7px' }}>UI/UX Designer & Developer</h2>
+              <p className='roboto' style={{ color: '#fff', letterSpacing: '.5px' }}>I am a highly motivated UI/UX designer and developer with over five years of experience working in different industries. I also love learning and problem solving.</p>
               <div className='text-center'>
                 <button
-                  className='contact-btn'
+                  className='contact-btn roboto'
+                  style={{ letterSpacing: '.7px' }}
                   onClick={() => setModalShow(true)}
                 >
                   Contact Me
@@ -42,7 +43,6 @@ function Landing() {
           </Col>
         </Row>
       </Container>
-
       <MyContactModal 
         show={modalShow}
         onHide={() => setModalShow(false)}

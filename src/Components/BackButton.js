@@ -10,7 +10,7 @@ function BackButton() {
   }
 
   return (
-    <div className="back-btn" style={{ paddingTop: '2rem'}}>
+    <div className="back-btn roboto" style={{ paddingTop: '2rem'}}>
       <Container>
         <Row>
           <Col xl={8} lg={8}>

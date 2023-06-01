@@ -22,7 +22,7 @@ function CustomToggle({ children, eventKey, callback }) {
   return (
     <button
       type="button"
-      className={isCurrentEventKey ? 'close-project' : 'open-project'}
+      className={isCurrentEventKey ? 'close-project roboto' : 'open-project roboto'}
       onClick={decoratedOnClick}
     >
       {isCurrentEventKey ? 'Close' : 'Read More'}
@@ -36,7 +36,7 @@ function Portfolio() {
       <Container className="section-container">
         <Row>
           <Col lg={10}>
-            <h2 className="section-title">Portfolio</h2>
+            <h2 className="section-title lato">Portfolio</h2>
           </Col>
         </Row>
         <Accordion>
@@ -46,14 +46,14 @@ function Portfolio() {
                 <Card>
                   <Card.Img variant="top" src={project.image} />
                   <Card.Body>
-                    <Card.Title>{project.title}</Card.Title>
-                    <Card.Subtitle style={{ fontSize: '.8rem', fontWeight: '400' }}>{project.category}</Card.Subtitle>
+                    <Card.Title className='lato'>{project.title}</Card.Title>
+                    <Card.Subtitle className='roboto' style={{ fontSize: '.8rem', fontWeight: '400', letterSpacing: '.5px' }}>{project.category}</Card.Subtitle>
                     <CustomToggle eventKey={project.id}></CustomToggle>
                     <Accordion.Collapse eventKey={project.id}>
-                      <Card.Text>{project.description}</Card.Text>
+                      <Card.Text className='roboto' style={{ color: '#595959' }}>{project.description}</Card.Text>
                     </Accordion.Collapse>
                   </Card.Body>
-                  <a href={project.url} target={project.target} className="card-footer-button">View&nbsp;{project.type}</a>
+                  <a href={project.url} target={project.target} className="card-footer-button roboto">View&nbsp;{project.type}</a>
                 </Card>
               </Col>
             ))}

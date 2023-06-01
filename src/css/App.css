@@ -94,7 +94,6 @@ a, a:hover, .download-btn, .nav-item:hover {
 }
 
 .download-btn {
-  font-weight: 500;
   letter-spacing: .3px;
 }
 
@@ -210,9 +209,9 @@ a, a:hover, .download-btn, .nav-item:hover {
   margin-bottom: 1rem;
 }
 
-.about p, .text-thin, .section-description {
+/* .about p, .text-thin, .section-description {
   font-weight: 300;
-}
+} */
 
 .about p, .section-place {
   letter-spacing: .8px;
@@ -246,12 +245,11 @@ a, a:hover, .download-btn, .nav-item:hover {
 	font-size: 1.25rem;
 }
 
-.job-title, .edu-course, .section-place {
+.job-title, .edu-course, .section-place, .back-btn, .download-btn {
   font-weight: 500;
 }
 
 .job-title, .text-thin i, .text-thin, .edu-course, .section-description {
-  /* color: #666; */
   color: #595959;
 }
 
@@ -269,8 +267,8 @@ a, a:hover, .download-btn, .nav-item:hover {
 	opacity: .5;
 }
 
-.text-thin i, .text-thin, .section-description {
-  font-size: .93rem;
+.text-thin i {
+  font-size: 1rem;
 }
 
 .job-col-right {
@@ -351,10 +349,6 @@ a, a:hover, .download-btn, .nav-item:hover {
 footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.back-btn {
-  font-weight: 600;
 }
 
 .back-btn a:hover > i, .back-btn a:hover {

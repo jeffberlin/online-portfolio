@@ -17,7 +17,7 @@ function ContactNav() {
               <a href="https://github.com/jeffberlin" target="_blank" rel="noreferrer" alt="Github Profile" title="Github Profile"><i className="fa fa-github" aria-hidden="true"></i></a>
             </div>
             <div className="social-icon">
-              <a href="https://angel.co/jeffberlin" target="_blank" rel="noreferrer" alt="AngelList Profile" title="AngelList Profile"><i className="fa fa-angellist" aria-hidden="true"></i></a>
+              <a href="https://wellfound.com/u/jeffberlin" target="_blank" rel="noreferrer" alt="Wellfound Profile" title="Wellfound Profile"><i className="fa fa-angellist" aria-hidden="true"></i></a>
             </div>
             <div className="social-icon">
               <a href="https://www.behance.net/jeffberlin" target="_blank" rel="noreferrer" alt="Behance Profile" title="Behance Profile"><i className="fa fa-behance" aria-hidden="true"></i></a>
@@ -31,6 +31,7 @@ function ContactNav() {
                   eventKey={4}
                   to="/#portfolio"
                   as={MyHashLink}
+                  className="roboto"
                 >
                   Portfolio
                 </Nav.Link>
@@ -40,6 +41,7 @@ function ContactNav() {
                   eventKey={1}
                   to="/#skills"
                   as={MyHashLink}
+                  className="roboto"
                 >
                   Skills
                 </Nav.Link>
@@ -49,6 +51,7 @@ function ContactNav() {
                   eventKey={2}
                   to="/#experience"
                   as={MyHashLink}
+                  className="roboto"
                 >
                   Experience
                 </Nav.Link>
@@ -58,6 +61,7 @@ function ContactNav() {
                   eventKey={3}
                   to="/#education"
                   as={MyHashLink}
+                  className="roboto"
                 >
                   Education
                 </Nav.Link>
@@ -66,7 +70,7 @@ function ContactNav() {
             <Nav>
               <Nav.Item>
                 <a href={resumePDF} download="jeff-berlin-resume" alt="Download Resume PDF" title="Download Resume PDF">
-                  <button className="download-btn" type="button">Download Resume</button>
+                  <button className="download-btn roboto" type="button" style={{ letterSpacing: '.5px' }}>Download Resume</button>
                 </a>
               </Nav.Item>
             </Nav>
