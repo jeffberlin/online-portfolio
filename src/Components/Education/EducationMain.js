@@ -21,7 +21,7 @@ function Education() {
                 <p className="edu-course">{edu.course}</p>
                 <p className="text-thin">{edu.start}&nbsp;-&nbsp;{edu.end}</p>
                 <p className="section-description">{edu.description}</p>
-                <Image src={edu.image} width={350} alt={edu.imageAlt} />
+                <Image src={edu.image} width={350} alt={edu.imageAlt} className="edu-img" />
               </div>
             </Col>
           </Row>
