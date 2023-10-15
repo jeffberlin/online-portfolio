@@ -1,4 +1,4 @@
-import GoogleCourse1Cert from './images/Google-UX-Design-Course1- Certificate.jpg'
+import GoogleCourse1Cert from './images/GoogleUXDesign-Certificate-min.jpg'
 import UXDesignCert from './images/udacity-ux-designer-certification.jpg';
 import ReactCert from './images/Udacity-React-Certificate.jpg';
 import FendCert from './images/Udacity-FEND-Certificate.jpg';
