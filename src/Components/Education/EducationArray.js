@@ -9,7 +9,7 @@ const education = [
     url: "https://www.coursera.org/professional-certificates/google-ux-design",
     course: "Google UX Design Professional Certificate",
     start: "May 2023",
-    end: "Present",
+    end: "October 2023",
     description: "Follow the design process (empathize with users, define pain points, ideate solutions, create wireframes and prototypes, test and iterate on designs) to plan research studies, conduct interviews and usability studies, and synthesizing research results, and apply foundational UX concepts, like user-centered design, accessibility, and equity-focused design to build a mobile app, responsive web site, and cross-platform experience.",
     image: GoogleCourse1Cert,
     imageAlt: "Google Course 1 certificate image"
