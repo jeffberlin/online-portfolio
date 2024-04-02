@@ -6,7 +6,8 @@ const other = [
   'Analytics',
   'Miro',
   'Hotjar',
-  'Lookback'
+  'Lookback',
+  'MS Word'
 ];
 
 export default other;

@@ -1,5 +1,14 @@
 const jobInfo = [
   {
+    title: "Forms Designer",
+    start: "August 2023",
+    end: "Present",
+    company: "One Mnet Health",
+    location: "Remote",
+    description: "Create, edit, and update designs for surgical center forms. Resolve any issues that may arise with populating data, and work closely with the SDR, designers, and developers when needed.",
+    url: "https://onemnethealth.com/"
+  },
+  {
     title: "Front End Web Developer",
     start: "April 2018",
     end: "Present",
