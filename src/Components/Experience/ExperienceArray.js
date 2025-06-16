@@ -5,13 +5,13 @@ const jobInfo = [
     end: "Present",
     company: "One Mnet Health",
     location: "Remote",
-    description: "Create, edit, and update designs for surgical center forms. Resolve any issues that may arise with populating data, and work closely with the SDR, designers, and developers when needed.",
+    description: "Creating and editing custom, highly detailed Pre-Op medical forms, coordinating cross-functional communication and internal collaboration to ensure client needs are understood and met, utilizing a variety of design programs to create and edit necessary graphics for use on facility forms.",
     url: "https://onemnethealth.com/"
   },
   {
     title: "Front End Web Developer",
     start: "April 2018",
-    end: "Present",
+    end: "August 2023",
     company: "BMT Micro, Inc.",
     location: "Wilmington, NC",
     description: "BMT Micro is an e-commerce company for software and game developers. Since starting with BMT Micro, I have created a custom WordPress plugin, designed a new company logo, redesigned and rebuilt all of the company websites, and designed and built our custom email template. I helped implement a new 'pop-up' shopping cart, by helping to design and code the front end. After completion of the new company homepage, we have seen traffic triple, with an increase in new accounts created.",
