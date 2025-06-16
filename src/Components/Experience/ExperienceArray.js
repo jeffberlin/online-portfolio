@@ -5,7 +5,7 @@ const jobInfo = [
     end: "Present",
     company: "One Mnet Health",
     location: "Remote",
-    description: "Creating and editing custom, highly detailed Pre-Op medical forms, coordinating cross-functional communication and internal collaboration to ensure client needs are understood and met, utilizing a variety of design programs to create and edit necessary graphics for use on facility forms.",
+    description: "Creating and editing custom, highly detailed Pre-Op medical forms, coordinating cross-functional communication and internal collaboration to ensure client needs are understood and met, utilizing a variety of design programs to create and edit necessary graphics for use on facility forms, and much more.",
     url: "https://onemnethealth.com/"
   },
   {
