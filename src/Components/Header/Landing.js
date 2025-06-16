@@ -19,7 +19,7 @@ function Landing() {
             <div className='name-box'>
               <h1 className='lato'>Jeff Berlin</h1>
               <h2 className='roboto' style={{ letterSpacing: '.7px' }}>UI/UX Designer & Developer</h2>
-              <p className='roboto' style={{ color: '#fff', letterSpacing: '.5px' }}>I am a highly motivated UI/UX designer and developer with over five years of experience working in different industries. I also love learning and problem solving.</p>
+              <p className='roboto' style={{ color: '#fff', letterSpacing: '.5px' }}>I am a highly motivated UI/UX designer and developer with over 7 years of experience working in different industries who also loves learning new things and problem solving.</p>
               <div className='text-center'>
                 <button
                   className='contact-btn roboto'
