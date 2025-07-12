@@ -23,7 +23,7 @@ import appLogo2 from './images/app-logo-2.jpg';
 import ilmBrewLogo from './images/ilm-brew-logo.jpg';
 import FoodTruckScreens from './images/food-truck-screens.jpg';
 // import BMTappScreens from './images/bmt-app-screens.jpg';
-import BMTappScreensNew from './images/bmt-app-screens_new.jpg'
+import BMTappScreensNew from './images/bmt-app-images_new.jpg'
 import autoGaragePhoto from './images/auto-garage-landing-wireframe-400px.jpg';
 import foodTruckCaseStudy from './images/food-truck-finder-case-study.jpg';
 import roundedHotelPhoto from './images/rounded-hotel-wireframe-400px.jpg';
