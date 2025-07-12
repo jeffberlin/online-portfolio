@@ -22,12 +22,23 @@ import appLogo1 from './images/app-logo-1.jpg';
 import appLogo2 from './images/app-logo-2.jpg';
 import ilmBrewLogo from './images/ilm-brew-logo.jpg';
 import FoodTruckScreens from './images/food-truck-screens.jpg';
-import BMTappScreens from './images/bmt-app-screens.jpg';
+// import BMTappScreens from './images/bmt-app-screens.jpg';
+import BMTappScreensNew from './images/bmt-app-screens_new.jpg'
 import autoGaragePhoto from './images/auto-garage-landing-wireframe-400px.jpg';
 import foodTruckCaseStudy from './images/food-truck-finder-case-study.jpg';
 import roundedHotelPhoto from './images/rounded-hotel-wireframe-400px.jpg';
 
 const projects = [
+  {
+    title: "BMT Micro App",
+    image: BMTappScreensNew,
+    url: "https://www.behance.net/gallery/230165753/BMT-Micro-Mobile-App",
+    category: "Design, Prototype",
+    description: "A sample project for a BMT Micro mobile app. These designs were created using Figma.",
+    type: "on Behance",
+    target: "_blank",
+    id: "23"
+  },
   {
     title: "Food Truck Finder Case Study",
     image: foodTruckCaseStudy,
@@ -57,16 +68,6 @@ const projects = [
     type: "Website",
     target: "_blank",
     id: "0"
-  },
-  {
-    title: "BMT Micro App",
-    image: BMTappScreens,
-    url: "https://www.behance.net/gallery/162946505/BMT-Micro-App-Sample-%28in-progress%29",
-    category: "Design, Prototype",
-    description: "A sample project for a BMT Micro mobile app. These designs were created using Figma.",
-    type: "Images",
-    target: "_blank",
-    id: "23"
   },
   {
     title: "Hotel Software Landing Page",
